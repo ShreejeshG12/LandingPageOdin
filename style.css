@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script&display=swap');
+
+* {
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.topbody {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    gap: 50px;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 0 20px;
+}
+
+.logo ,
+.links {
+    margin: 10px 100px 10px;
+}
+
+.heromain {
+    display: flex;
+    margin: 10px 100px 10px;
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #2882f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 2px 10px 2px;
+}
+
+.picture {
+    background-color: grey;
+    padding-left: 30px;
+    min-width: 300px;
+    min-height: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.midtopbody {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h3 {
+    text-align: center;
+}
+
+.box {
+    border: 2px solid #46B6FF;
+    height: 75px;
+    width: 75px;
+    align-self: center;
+    border-radius: 15px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    min-width: 75px;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 10px 100px 10px;
+}
+
+.boxes p {
+    color: black;
+    max-width: 75px;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.midbottombody {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    flex: 1;    
+}
+
+.midbottombody p {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    margin: 0 100px 0px;
+    color: #1f2937;
+}
+
+h6 {
+    align-self: flex-end;
+    margin: 0;
+    padding: 0;
+    margin: 0px 100px 0px;
+    color: f2937;
+}
+
+.bottombody {
+    background-color: white;
+    justify-content: center;
+    display: flex;
+}
+
+.footer {
+    background-color: #2882f6;
+    flex: 1;
+    margin: 30px 100px 30px;
+    border-radius: 5px;
+    padding: 25px 30px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottombody p {
+    margin: 0;
+    padding: 0;
+
+}
+
+h5 {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.footer button {
+    border-radius: 4px;
+    border: 1px solid white;
+    color: white;
+    padding: 2px 4px 2px;
+}
+
+.signup {
+    align-self: center;
+}
+
+.end {
+    background-color: #1f2937;
+    padding: 15px;
+    margin: 0;
+}
+
+.botext {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+ 
+
+
+
+
+
